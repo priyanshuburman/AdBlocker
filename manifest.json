@@ -1,0 +1,15 @@
+{
+    "name": "Adblocker nxt",
+    "version": "1.0",
+    "description": "Enhanced Adblocker that stops any requests from marketing companies",
+    "permissions": ["webRequest","webRequestBlocking","<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    },
+    "manifest_version": 2
+}
